@@ -1,12 +1,24 @@
 @charset "UTF-8";
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --azzurro_chiaro: #2098C8;
+  --azzurro_medio: #2B75B5;
+  --azzurro_scuro: #1F538F;
+  --testo_bianco: #f6f6f6;
+}
+
 body{
   font-family: Arial, Helvetica, sans-serif;
 }
+
+ /* MENU */
+
 header{
   height: 90px;
   width: 100%;
@@ -73,7 +85,9 @@ header{
   text-decoration: none;
   color: #fff;
 }
-                                                        
+
+ /* FINE-MENU */
+ 
 .slider-iniziative{                                                  /* Inizio pagina iniziative*/
   height: 500px;
   background-image: url(../img/foto_iniziative.jpg);
@@ -281,6 +295,7 @@ footer{
 }
 
 /* nascondo di default il menu hamburger */
+
 .menu_responsive{
   display: none;
   display: block;
