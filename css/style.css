@@ -367,3 +367,486 @@ align-items: center;
   text-align: center;
   color: #fff;
 }
+
+/* STILE PAGINA CONTATTI */
+
+#slider_contatti{
+  height: 500px;
+  background-image: url(../image/Contatti\ sfondo.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.6);
+  align-items: center;
+  text-align: right;
+}
+
+.head-img-contatti{
+  color: #ffffff;
+  min-width: 540px;
+  font-size: 52px;
+  font-weight: bold;
+  background-color: rgba(43, 117, 181, 0.8);
+  width: 40%;
+  height: 120px;
+  padding-top: 3vh;
+  border-radius: 0 40px 40px 0;
+  text-align: center;
+}
+
+/* SEDI */
+
+.mappa_italia{
+  background-image: url(..image/chief_logo.svg);
+  width: auto;
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+
+#sedi{
+  width: auto;
+  height: auto;
+  z-index: 1;
+  position: absolute;
+  left: 5%;
+  margin-top: 5%;
+  font-size: 3rem;
+  color: var(--azzurro_medio);
+}
+
+#italia_svg{
+  opacity: 80%;
+}
+#logo_svg{
+  opacity: 10%;
+ max-width: -webkit-fill-available;
+}
+
+/* FORM */
+
+.form{
+width: auto;
+height: 600px;
+background-color: var(--azzurro_chiaro);
+flex-direction: column;
+justify-content: space-around;
+}
+.form h4{
+  color: #fff;
+  padding: 24px;
+  font-size: 1rem;
+  font-style: italic;
+}
+.form h1{
+  color: var(--azzurro_scuro);
+  min-width: 540px;
+  font-size: 52px;
+  font-weight: bold;
+  background-color: #fff;
+  width: 40%;
+  height: 120px;
+  padding-top: 3vh;
+  border-radius: 0 40px 40px 0;
+  text-align: center;
+}
+
+#stile_form{
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+#stile_form, input{
+  width: 400px;
+  height: 26px;
+}
+
+/* STILE FASCIA FOOTER */
+
+.fascia_footer{
+width: auto;
+height: auto;
+display: flex;
+justify-content: space-evenly;
+text-decoration: none;
+color: #fff;
+}
+
+.fascia_footer li{
+  font-size: 1em;
+}
+
+.blocco_chief{
+  width: 18%;
+  height: 220px;
+  background-color: var(--azzurro_scuro);
+  padding: 24px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.6);
+  font-size: 1em;
+  overflow: hidden;
+}
+
+.blocco_sedi{
+  width: 18%;
+  height: 220px;
+  background-color: var(--azzurro_scuro);
+  padding: 24px;
+  border-radius: 0 0 20px 20px;
+}
+
+.blocco_soci{
+  width: 18%;
+  height: 220px;
+  background-color: var(--azzurro_scuro);
+  padding: 24px;
+  border-radius: 0 0 20px 20px;
+}
+
+#blocco_soci_dona{
+
+  padding: 20px;
+}
+
+.blocco_loghi{
+  text-align: center;
+  width: 18%;
+  height: 220px;
+  background-color: #ffffff;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.6);
+}
+.blocco_loghi img{
+  height: 10vw;
+}
+
+#privacy_cookie p{
+margin-top: 26px;
+font-size: 14px;
+color: var(--testo_bianco);
+text-align: center;
+}
+
+#privacy_cookie a{
+  text-decoration: none;
+  color: var(--testo_bianco);
+}
+
+/*PAGINA CHI SIAMO*/
+#cs-slider{
+  height: fit-content;
+  background-image: url(/cs-image/javier-allegue-barros-i5Kx0P8A0d4-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.6);
+  border-radius: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+}
+.cs-slider-img{
+  background-color: rgba(43, 117, 181, 0.8);
+  padding: 2rem 20% 2rem 0;
+  border-radius: 0 70px 70px 0;
+}
+#cs-slider h2{
+  color: #ffffff;
+  font-size: 5rem;
+  margin-left: 8rem;
+}
+.cs-mission{
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  height: max-content;
+}
+.cs-mission img{
+  height: 35rem;
+}
+.cs-mission h3, .mission h3{
+  display: none;
+}
+.cs-mission-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: end;
+}
+.cs-mission-right img{
+  height: 300px;
+  padding-top: 5rem;
+}
+#cs-fascia-consiglio{
+  height: fit-content;
+  background-color: #d2f2ff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+
+#cs-fascia-consiglio h3{
+  color: #2B75B5;
+  padding: 2rem 5% 2rem 0;
+  font-size: 4rem;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 4px 0 rgba(255, 255, 255);
+  border-radius: 0 70px 70px 0;
+  padding-left: 8rem;
+}
+
+#cs-fascia-consiglio article{
+  padding-top: 2rem;
+  padding-left: 8rem;
+}
+
+#cs-organigramma{
+  display: flex;
+  flex-basis: 70%;
+  flex-direction: row;
+  margin-top: 2rem;
+  padding-left: 8rem;
+}
+#cs-organigramma article{
+  padding-left: 2rem;
+}
+#cs-organigramma p{
+  padding-top: 1rem;
+  font-style: italic;
+  line-height: 1.5rem;
+}
+#cs-organigramma h4{
+  color:#0977d4;
+  font-size: 1.5rem;
+}
+#cs-organigramma img, #cs-consiglio img{
+  border-radius: 50%;
+  max-width:250px;
+  max-height: 250px;
+  padding-bottom: 1rem;
+}
+#cs-consiglio{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem;
+}
+#cs-consiglio>div{
+  padding: 1rem 3rem;
+  text-align: center;
+}
+#cs-consiglio p{
+  font-weight: bold;
+  font-size: larger;
+}
+
+#cs-partners{
+  background-color: #9fd4f1;
+  height: fit-content;
+}
+#cs-partners-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#cs-partners h3{
+  color: #2B75B5;
+  padding: 2rem 5% 2rem 0;
+  font-size: 4rem;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 4px 0 rgba(255, 255, 255);
+  border-radius: 0 70px 70px 0;
+  padding-left: 8rem;
+}
+#cs-partners p{
+  margin: 8rem;
+}
+#cs-partners span{
+  line-height: 5rem;
+  font-weight: bolder;
+}
+#flex-partners{
+display: flex;
+flex-direction: row;
+align-items: baseline;
+justify-content: center;
+margin: 0 3rem;
+padding-bottom: 5rem;
+}
+#partners{
+  display: flex;
+  flex-direction: column;
+  color: #1F538F
+}
+#partners p{
+  margin: 1rem;
+  text-align: center;
+}
+#partners h4{
+  text-align: center;
+}
+#partners img{
+  max-width: 20rem;
+  align-self: center;
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 767px){
+  #cs-slider{
+    padding-top: 15rem;
+    display: flex;
+  }
+  #cs-slider h2{
+    color: #ffffff;
+    font-size: 3rem;
+    margin-left: 2rem;
+  }
+  .fascia-a{
+    max-width: 767px;
+  }
+  .cs-mission, .mission{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  .cs-mission img{
+    display: none;
+  }
+  .cs-mission h3, .mission h3{
+    display: inline;
+    font-size: 5rem;
+    color: #1F538F;
+  }
+  .descrizioni p{
+    padding: 2rem;
+  }
+  #cs-fascia-consiglio h3, #cs-partners h3{
+    font-size: 3rem;
+    padding: 2rem 1% 2rem 2rem;
+  }
+  #cs-fascia-consiglio article {
+    padding: 2rem;
+    text-align: center;
+  }
+  #cs-organigramma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #cs-consiglio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  #cs-consiglio>div {
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: row;
+  }
+  #cs-partners{
+    padding-top: 2rem;
+  }
+  #cs-partners-title{
+    display: inline;
+    padding-top: 2rem;
+  }
+  #cs-partners p {
+    margin: 2rem;
+    text-align: center;
+  }
+  #flex-partners{
+    flex-direction: column;
+  }
+}
+
+*/COSA FACCIAMO/*
+/*da modificare nell'index*/ 
+#slider{
+  height: 800px;
+  background:no-repeat center/cover url(../img/05_restauroconservativo.jpg);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+}
+
+.head-img-pagina{
+  background-color: rgba(43, 117, 181, 0.8);
+  padding: 12px 20% 0 0;
+  border-radius: 70px 0 0 70px;
+}
+
+.head-img-pagina h3{
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+.cf-fascia{
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+.cf-fascia-h3{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: rgba(43, 117, 181, 0.8);
+  margin: 40px 25% 0 0;
+  border-radius: 0px 70px 70px 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+}
+
+.cf-fascia-testo p{
+  margin: 50px;
+  color: rgba(43, 117, 181, 0.8);
+  text-align: left;
+}
+#flex-foto-slider{
+  width: 45%;
+}
+
+.cf-fascia-formazione{
+  background-color: #e0e5ea;
+}
+.cf-fascia-formazione-h3,.cf-fascia-interventi-h3{
+  color: rgba(43, 117, 181, 0.8);
+  background-color: #ffffff;
+}
+
+.cf-fascia-interventi{
+  background-color: #d0dbe5;
+}
+
+footer{
+  background-color: #2B75B5;
+  height: 300px;
+  margin: auto;
+}
+@media (max-width: 767px) {
+.cf-fascia{
+  display: flex;
+  flex-direction: column;
+}
+.cf-fascia-h3{
+  font-size: 2rem;
+}
+}
+*/fine cosa facciamo/*
